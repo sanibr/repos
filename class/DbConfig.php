@@ -2,9 +2,9 @@
 class DbConfig 
 {	
 	private $_host = 'localhost';
-	private $_username = 'infonetu_Repos';
-	private $_password = 'InfoRepos@@123';
-	private $_database = 'infonetu_registration';
+	private $_username = 'root';
+	private $_password = '';
+	private $_database = 'repos_registration';
 	
 	protected $connection;
 	
