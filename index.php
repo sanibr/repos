@@ -3,6 +3,7 @@ include_once("class/Crud.php");
 $crud = new Crud();
 if($crud->is_loggedin()) header('location:dashboard.php');
 
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$username = $crud->escape_string($_POST['username']);
 	$password = $crud->escape_string($_POST['password']);
